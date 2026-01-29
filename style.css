@@ -1,0 +1,42 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+.container {
+width: 1300px;
+height: 900px;
+margin: auto;
+background: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.canvasBox {
+width: 100%;
+height: 100%;
+background: url("Assets/night.png") no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+
+.hero {
+width: 300px;
+height: 300px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+
+.hero img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
