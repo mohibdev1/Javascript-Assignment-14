@@ -64,16 +64,16 @@ moving = true;
   hero.style.transform = `scaleX(${facing})`;
 
 
-// Enemy ko hero ki taraf face karwana
+
 if (x < enemyX) {
-    // hero enemy ke left me -> enemy samne left face
+    
     enemyImg.style.transform = "scaleX(-1)";
 } else {
-    // hero enemy ke right me -> enemy samne right face
+    
     enemyImg.style.transform = "scaleX(1)";
 }
 
-// hero aur enemy ka distance
+
 let distance = Math.abs(x - enemyX);
 
 if (distance < 80) {

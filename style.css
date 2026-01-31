@@ -73,7 +73,7 @@ object-fit: contain;
 }
 
 #enemy {
-  left: 900px;   /* samnay khara */
+  left: 900px;   
 }
 #enemy img {
     width: 250px;
